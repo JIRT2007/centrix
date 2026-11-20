@@ -17,7 +17,7 @@ Se recomienda encarecidamente revisar los scripts del proyecto antes de ejecutar
 
 ### INSTALACIÓN Y USO
 ```
-git clone https://codeberg.org/JIRT2007/centrix.git
+git clone https://github.com/JIRT2007/centrix.git
 ./centrix/install.sh
 ```
 El instalador de **Centrix** es muy intuitivo y ofrece una limpieza e instalación de programas al igual que ofrece la instalación de ciertos programas a elección del usuario final (Discord, Spotify, FreePascal, etc). De mismo modo al finalizar el instalador se ofrece la opción de configurar las credenciales locales de **Git**.
