@@ -4,15 +4,16 @@ El instalador ofrece flexibilidad permitiendo instalar programas varios seleccio
 
 ### INSPIRACIÓN
 La creación del proyecto **Centrix** surge en base a proyecto de la misma indole, proyectos personales donde los/as respectivos/as creadores/as brindan un sistema operativo con base GNU/Linux a la comunidad en base a sus preferencias y como ellos ven el sistema operativo ideal (Sin animos de ofender). Algunos ejemplos muy claros son **Loc-OS**, **FLinux**, **Goldendog Linux**, **Omakub**, etc.
+
 **Centrix** ofrece de misma forma una visión del creador de como deberian ser los sistemas GNU/Linux (Al menos a nivel de personalización).
 
 ### REQUISITOS
-- Un sistema Debian GNU/Linux instalado con el entorno de escritorio GNOME predeterminado.
+- Un sistema Debian GNU/Linux instalado con el entorno de escritorio **Xfce** predeterminado.
 - El programa Git instalado, para poder clonar el repositorio desde la plataforma **GitHub**.
 - Conexión a Internet para descargar paquetes.
 
 ### ADVERTENCIA
-**Centrix** va a instalar y eliminar paquetes y extensiones de GNOME, así como modificar la configuración del sistema y archivos como el `.bashrc`. 
+**Centrix** va a instalar y eliminar paquetes del entorno de escritorio **Xfce**, así como modificar la configuración del sistema y el archivo `.bashrc`. 
 Se recomienda encarecidamente revisar los scripts del proyecto antes de ejecutarlos y asegúrate de comprender las operaciones que realizan.
 
 ### INSTALACIÓN Y USO
