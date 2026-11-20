@@ -8,11 +8,11 @@ La creación del proyecto **Centrix** surge en base a proyecto de la misma indol
 
 ### REQUISITOS
 - Un sistema Debian GNU/Linux instalado con el entorno de escritorio GNOME predeterminado.
-- El programa Git instalado, para poder clonar el repositorio desde la plataforma **Codeberg**.
+- El programa Git instalado, para poder clonar el repositorio desde la plataforma **GitHub**.
 - Conexión a Internet para descargar paquetes.
 
 ### ADVERTENCIA
-**Kabuki** va a instalar y eliminar paquetes y extensiones de GNOME, así como modificar la configuración del sistema y archivos como el `.bashrc`. 
+**Centrix** va a instalar y eliminar paquetes y extensiones de GNOME, así como modificar la configuración del sistema y archivos como el `.bashrc`. 
 Se recomienda encarecidamente revisar los scripts del proyecto antes de ejecutarlos y asegúrate de comprender las operaciones que realizan.
 
 ### INSTALACIÓN Y USO
