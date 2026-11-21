@@ -21,7 +21,7 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s "Papirus"
 xfconf-query -c xsettings -p /Net/ThemeName -s "Adwaita-dark"
 
 # ELEVACION DE VENTANAS:
-xfconf-query -c xfwm4 -p /general/focus_model --create -t string -s mouse
+xfconf-query -c xfwm4 -p /general/click_to_focus -s false
 
 # NO ICONOS EN ESCRITORIO:
 xfconf-query -c xfce4-desktop -p /desktop-icons/style -t int -s 0 --create

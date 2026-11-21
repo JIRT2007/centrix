@@ -9,9 +9,9 @@ for k in KP_Left KP_Right KP_Up KP_Down KP_Home KP_End KP_Page_Up KP_Next; do
 done
 
 xfconf-query -c xfce4-keyboard-shortcuts -p "/xfwm4/custom/<Alt>c" --create -t string -s "close_window_key"
-xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Super>Left'  -t string -s tile_left_key
-xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Super>Right' -t string -s tile_right_key
-xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Super>Up'    -t string -s maximize_window_key
+xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Alt>Left'  -t string -s tile_left_key
+xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Alt>Right' -t string -s tile_right_key
+xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Alt>Up'    -t string -s maximize_window_key
 
 # WHISKERMENU
 xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Super_L --create -t string -s "xfce4-popup-whiskermenu"
