@@ -84,7 +84,7 @@ xfconf-query -c xfce4-panel -p /plugins/plugin-3/expand --create -t bool -s true
 # CONFIGURAR ELEMENTOS DEL PANEL:
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-layout --create -t uint -s 3
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-time-font --create -t string -s "Sans Regular 11"
-xfconf-query -c xfce4-panel -p /plugins/plugin-1/position-categories-alternate -s true
+xfconf-query -c xfce4-panel -p /plugins/plugin-1/position-categories-alternate --create -t bool -s true
 
 # CREAR ELEMENTOS DEL PANEL:
 xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids --create --force-array \
