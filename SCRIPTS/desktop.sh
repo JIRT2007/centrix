@@ -36,6 +36,9 @@ xfconf-query -c xfwm4 -p /general/title_font --create -t string -s "JetBrains Mo
 xfconf-query -c xfwm4 -p /general/title_alignment --create -t string -s "left"
 xfconf-query -c xfwm4 -p /general/button_layout -s "|HMC"
 
+# ESTRUCTURAR VENTANAS:
+xfconf-query -c xfwm4 -p /general/tile_on_move
+
 # CONFIGURAR PANEL:
 xfconf-query -c xfce4-panel -p /panels -t int -s 1 -a
 xfconf-query -c xfce4-panel -p /panels/panel-1/position -t string -s "p=10;x=0;y=0"
@@ -81,6 +84,7 @@ xfconf-query -c xfce4-panel -p /plugins/plugin-3/expand --create -t bool -s true
 # CONFIGURAR ELEMENTOS DEL PANEL:
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-layout --create -t uint -s 3
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-time-font --create -t string -s "Sans Regular 11"
+xfconf-query -c xfce4-panel -p /plugins/plugin-1/position-categories-alternate -s true
 
 # CREAR ELEMENTOS DEL PANEL:
 xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids --create --force-array \

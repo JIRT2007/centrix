@@ -27,6 +27,7 @@ apt install -y xfce4-whiskermenu-plugin \
 	xfce4-screenshooter \
 	fonts-jetbrains-mono \
 	papirus-icon-theme \
+	keepassxc \
 	fastfetch \
 	alacritty \
 	blueman \
