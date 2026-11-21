@@ -26,9 +26,9 @@ El instalador de **Centrix** es muy intuitivo y ofrece una limpieza e instalaci�
 ### KEYBINDINGS:
 - Emulador de terminal Alacritty: `Alt + Q`
 - Cerrar ventanas: `Alt + C`
-- Maximizar ventanas: `Super + Up`
-- Posicion derecha de ventanas: `Super + Right`
-- Posicion izquierda de ventanas: `Super + Left`
+- Maximizar ventanas: `Alt + Up`
+- Posicion derecha de ventanas: `Alt + Right`
+- Posicion izquierda de ventanas: `Alt + Left`
 
 ### LICENCIA
 **Centrix** está sujeto a las políticas de uso y distribución establecidas por la **Licencia Pública General v2.0**. Puedes consultar la documentación oficial en el sitio web del proyecto **GNU**: *https://www.gnu.org/licenses/old-licenses/gpl-2.0.html*
