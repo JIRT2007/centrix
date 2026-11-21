@@ -23,5 +23,12 @@ git clone https://github.com/JIRT2007/centrix.git
 ```
 El instalador de **Centrix** es muy intuitivo y ofrece una limpieza e instalación de programas al igual que ofrece la instalación de ciertos programas a elección del usuario final (Discord, Spotify, FreePascal, etc). De mismo modo al finalizar el instalador se ofrece la opción de configurar las credenciales locales de **Git**.
 
+### KEYBINDINGS:
+- Emulador de terminal Alacritty: `Alt + Q`
+- Cerrar ventanas: `Alt + C`
+- Maximizar ventanas: `Super + Up`
+- Posicion derecha de ventanas: `Super + Right`
+- Posicion izquierda de ventanas: `Super + Left`
+
 ### LICENCIA
 **Centrix** está sujeto a las políticas de uso y distribución establecidas por la **Licencia Pública General v2.0**. Puedes consultar la documentación oficial en el sitio web del proyecto **GNU**: *https://www.gnu.org/licenses/old-licenses/gpl-2.0.html*

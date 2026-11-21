@@ -29,39 +29,15 @@ case $optionMAIN in
 	    mkdir -p $HOME/.config/alacritty
 
 	    "$HOME/centrix/SCRIPTS/software.sh"
+	    "$HOME/centrix/SCRIPTS/keybindings.sh"
 	    "$HOME/centrix/SCRIPTS/desktop.sh"
 
-	    # GIT CONFIGURATION:
-	    echo ""
-	    read -p "You want to configure Git? [y/n] " optionGIT
-	    case $optionGIT in
-		[yY])
-		    read -p "Git name: " gitNAME
-		    read -p "Git email: " gitEMAIL
-			echo "[Wait...]"
-			sleep 1
-		    git config --global user.name "$gitNAME"
-		    git config --global user.email "$gitEMAIL"
-			echo "[Done!]"
-			sleep 1
-		;;
-	
-		[nN])
-		;;
-
-		*)
-		echo "Order not found."
-		sleep 1
-		;;
-	    esac
-	
-
 	    sleep 1
-	echo "[INSTALLATION COMPLETE]"
+		echo "[INSTALLATION COMPLETE]"
 	    sleep 1
-	echo "[THE SYSTEM WILL BE RESTART IN 3 SECONDS]"
+		echo "[THE SYSTEM WILL BE RESTART IN 3 SECONDS]"
 	    sleep 3
-	sudo systemctl reboot
+		sudo systemctl reboot
 	;;
 
 	[nN])

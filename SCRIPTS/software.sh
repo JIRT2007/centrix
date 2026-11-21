@@ -37,6 +37,32 @@ apt install -y xfce4-whiskermenu-plugin \
 	btop \
 	vim
 
+#########################
+### GIT CONFIGURATION ###
+#########################
+echo ""
+read -p "You want to configure Git? [y/n] " optionGIT
+case $optionGIT in
+    [yY])
+        read -p "Git name: " gitNAME
+        read -p "Git email: " gitEMAIL
+	    echo "[Wait...]"
+    	    sleep 1
+    	git config --global user.name "$gitNAME"
+    	git config --global user.email "$gitEMAIL"
+            echo "[Done!]"
+            sleep 1
+    ;;
+	
+    [nN])
+    ;;
+
+    *)
+    echo "Order not found."
+    sleep 1
+    ;;
+esac
+
 ##################
 ### FreePASCAL ###
 ##################

@@ -3,11 +3,6 @@
 cp $HOME/centrix/DESIGN/alacritty.toml .config/alacritty/
 cp $HOME/centrix/DESIGN/bashrc $HOME/.bashrc
 
-# KEYBINDINGS:
-xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Alt>q" --create -t string -s "alacritty"
-xfconf-query -c xfce4-keyboard-shortcuts -p "/xfwm4/custom/<Alt>c" --create -t string -s "close_window_key"
-xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Super_L --create -t string -s "xfce4-popup-whiskermenu"
-
 # WALLPAPER:
 WALL=$HOME/centrix/DESIGN/wallpaper.png
 for mon in $(xrandr --query | awk '/ connected/{print $1}'); do
