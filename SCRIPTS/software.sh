@@ -26,7 +26,7 @@ apt autoremove -y
 apt install -y xfce4-whiskermenu-plugin \
 	xfce4-screenshooter \
 	fonts-jetbrains-mono \
-	adwaita-icon-theme \
+	gnome-themes-extra \
 	papirus-icon-theme \
 	keepassxc \
 	fastfetch \

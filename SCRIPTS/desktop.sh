@@ -31,6 +31,7 @@ xfconf-query -c xfwm4 -p /general/click_to_focus -s false
 xfconf-query -c xfce4-desktop -p /desktop-icons/style -t int -s 0 --create
 
 # COMPOSICION DE TITULOS DE VENTANAS:
+xfconf-query -c xfwm4 -p /general/theme -s "Adwaita"
 xfconf-query -c xfwm4 -p /general/title_font --create -t string -s "JetBrains Mono Bold 9"
 xfconf-query -c xfwm4 -p /general/title_alignment --create -t string -s "left"
 xfconf-query -c xfwm4 -p /general/button_layout -s "|HMC"
