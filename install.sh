@@ -27,6 +27,7 @@ case $optionMAIN in
 
 	[yY])
 	    mkdir -p $HOME/.config/alacritty
+	    mkdir -p $HOME/.config/fastfetch
 
 	    "$HOME/centrix/SCRIPTS/software.sh"
 	    "$HOME/centrix/SCRIPTS/keybindings.sh"

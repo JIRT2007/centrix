@@ -2,6 +2,7 @@
 
 cp $HOME/centrix/DESIGN/alacritty.toml .config/alacritty/
 cp $HOME/centrix/DESIGN/bashrc $HOME/.bashrc
+cp $HOME/centrix/DESIGN/fastfetch.jsonc $HOME/.config/fastfetch/config.jsonc
 
 # WALLPAPER:
 WALL=$HOME/centrix/DESIGN/wallpaper.png
@@ -15,6 +16,9 @@ done
 
 # WORKSPACES:
 xfconf-query -c xfwm4 -p /general/scroll_workspaces -s false
+
+# TIPOGRAFIAS:
+xfconf-query -c xsettings -p /Gtk/FontName -s "JetBrains Mono Regular 10"
 
 # APLICAR PAQUETE DE ICONOS:
 xfconf-query -c xsettings -p /Net/IconThemeName -s "Papirus"
@@ -76,10 +80,20 @@ xfconf-query -c xfce4-panel -p /plugins/plugin-11/expand --create -t bool -s fal
 xfconf-query -c xfce4-panel -p /plugins/plugin-13/expand --create -t bool -s false
 xfconf-query -c xfce4-panel -p /plugins/plugin-3/expand --create -t bool -s true
 
-# CONFIGURAR ELEMENTOS DEL PANEL:
+# CONFIGURAR WHISKERMENU:
+xfconf-query -c xfce4-panel -p /plugins/plugin-1/position-categories-alternate --create -t bool -s true
+xfconf-query -c xfce4-panel -p /plugins/plugin-1/menu-opacity --create -t int -s 80
+xfconf-query -c xfce4-panel -p /plugins/plugin-1/menu-width --create -t int -s 500
+xfconf-query -c xfce4-panel -p /plugins/plugin-1/menu-height --create -t int -s 500
+
+# CONFIGURAR WORKSPACES DEL PANEL:
+xfconf-query -c xfce4-panel -p /plugins/plugin-4/miniature-view --create -t bool -s false
+xfconf-query -c xfwm4 -p /general/workspace_names -a \
+	-t string -s "1" -t string -s "2" -t string -s "3" -t string -s "4"
+
+# CONFIGURAR RELOJ DEL PANEL:
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-layout --create -t uint -s 3
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-time-font --create -t string -s "Sans Regular 11"
-xfconf-query -c xfce4-panel -p /plugins/plugin-1/position-categories-alternate --create -t bool -s true
 
 # CREAR ELEMENTOS DEL PANEL:
 xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids --create --force-array \
