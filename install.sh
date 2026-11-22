@@ -38,7 +38,7 @@ case $optionMAIN in
 	    sleep 1
 		echo "[THE SYSTEM WILL BE RESTART IN 3 SECONDS]"
 	    sleep 3
-		sudo reboot -h now
+		sudo reboot
 	;;
 
 	[nN])
