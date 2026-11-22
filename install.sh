@@ -11,11 +11,11 @@ cat << "EOF"
 *----------------------------------------------------------*
 | Welcome to Centrix !!                                    |                  
 | This is not an operating system, it is a customization   |
-| for Debian GNU/Linux and its derivatives,                |
-| with Xfce desktop enviroment.                            |
-| In tribute to the community and inspired by Loc-OS.      |
+| for Debian GNU/Linux and Devuan GNU/Linux with           |
+| Xfce desktop enviroment.                                 |
 |                                                          |
 | Developed by JIRT2007.                                   |
+| https://github.com/JIRT2007                              |
 *----------------------------------------------------------*
 | [y] INSTALL Centrix.                                     |
 | [n] EXIT.                                                |
