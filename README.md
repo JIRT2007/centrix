@@ -11,7 +11,7 @@ La creación del proyecto **Centrix** surge en base a proyecto de la misma indol
 **Centrix** ofrece de misma forma una visión del creador de como deberian ser los sistemas GNU/Linux (Al menos a nivel de personalización).
 
 ### REQUISITOS
-- Un sistema Debian GNU/Linux instalado con el entorno de escritorio **Xfce** predeterminado.
+- Un sistema Debian/Devuan GNU/Linux instalado con el entorno de escritorio **Xfce** predeterminado.
 - El programa Git instalado, para poder clonar el repositorio desde la plataforma **GitHub**.
 - Conexión a Internet para descargar paquetes.
 

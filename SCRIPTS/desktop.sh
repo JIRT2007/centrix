@@ -14,6 +14,9 @@ for mon in $(xrandr --query | awk '/ connected/{print $1}'); do
   done
 done
 
+# ESTABLECER ALACRITTY COMO TERMINAL DEFAULT:
+echo "TerminalEmulator=alacritty" > $HOME/.config/xfce4/helpers.rc
+
 # WORKSPACES:
 xfconf-query -c xfwm4 -p /general/scroll_workspaces -s false
 
@@ -94,7 +97,8 @@ xfconf-query -c xfwm4 -p /general/workspace_names -a \
 
 # CONFIGURAR RELOJ DEL PANEL:
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-layout --create -t uint -s 3
-xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-time-font --create -t string -s "Sans Regular 11"
+xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-time-font --create -t string -s "JetBrains Mono Regular 11"
+xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-date-font --create -t string -s "JetBrains Mono Regular 11"
 
 # CREAR ELEMENTOS DEL PANEL:
 xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids --create --force-array \
