@@ -26,6 +26,13 @@ git clone https://github.com/JIRT2007/centrix.git
 ```
 El instalador de **Centrix** es muy intuitivo y ofrece una limpieza e instalación de programas al igual que ofrece la instalación de ciertos programas a elección del usuario final (Discord, Spotify, FreePascal, etc). De mismo modo al finalizar el instalador se ofrece la opción de configurar las credenciales locales de **Git**.
 
+Si unicamente se desea aplicar la personalización basica del entorno **Xfce** puede ejecutar el script encargado de customizar el escritorio.
+```
+./centrix/SCRIPTS/desktop.sh
+```
+Tenga en consideración que esto no customizara el entorno con el paquete de iconos y tipografias seleccionadas por el proyecto **Centrix** solo se modificara el fondo de escritorio y el panel de **Xfce** con el contenido que ya venga incluido dentro del entorno.
+Tampoco se eliminaran los paquetes considerados innecesarios ni se instalara la selección de software del proyecto (Vim, Fastfetch, Tmux, Btop, etc). 
+
 ### KEYBINDINGS:
 - Emulador de terminal Alacritty: `Alt + Q`
 - Cerrar ventanas: `Alt + C`
