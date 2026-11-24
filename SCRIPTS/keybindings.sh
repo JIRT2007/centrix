@@ -13,5 +13,8 @@ xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Alt>Left'  -t str
 xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Alt>Right' -t string -s tile_right_key
 xfconf-query -c xfce4-keyboard-shortcuts -n -p '/xfwm4/custom/<Alt>Up'    -t string -s maximize_window_key
 
-# WHISKERMENU
+# WHISKERMENU:
 xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Super_L --create -t string -s "xfce4-popup-whiskermenu"
+
+# XFCE4-APPFINDER:
+xfconf-query -c xfce4-keyboard-shortcuts -p "/commands/custom/<Alt>w" --create -t string -s "xfce4-appfinder"
