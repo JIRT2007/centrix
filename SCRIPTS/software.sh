@@ -25,6 +25,7 @@ apt autoremove -y
 # SOFTWARE A INSTALAR:
 apt install -y xfce4-whiskermenu-plugin \
 	xfce4-screenshooter \
+	xfce4-appfinder \
 	fonts-jetbrains-mono \
 	gnome-themes-extra \
 	papirus-icon-theme \
