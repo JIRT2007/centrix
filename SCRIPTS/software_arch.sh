@@ -16,7 +16,7 @@ pacman -R xfce4-notes \
 	htop
 
 # SOFTWARE A INSTALAR:
-pacman -S xfce4-whiskermenu-plugin \
+pacman -S --needed xfce4-whiskermenu-plugin \
 	xfce4-screenshooter \
 	ttf-jetbrains-mono \
 	gnome-themes-extra \
