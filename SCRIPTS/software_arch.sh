@@ -22,6 +22,7 @@ pacman -S xfce4-whiskermenu-plugin \
 	gnome-themes-extra \
 	papirus-icon-theme \
 	xfce4-appfinder \
+	xorg-xrandr \
 	keepassxc \
 	fastfetch \
 	alacritty \
