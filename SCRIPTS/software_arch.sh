@@ -4,14 +4,14 @@ if [ "$(id -u)" -ne 0 ]; then
     exec sudo "$0" "$@"
 fi
 
-pacman -Syu
+pacman -Syu --noconfirm
 
 # SOFTWARE A BORRAR:
-pacman -R xarchiver \
+pacman -Rns xarchiver \
 	mousepad \
 	xfburn \
 	nano \
-	htop
+	htop --noconfirm
 
 # SOFTWARE A INSTALAR:
 pacman -S --needed xfce4-whiskermenu-plugin \
@@ -28,7 +28,7 @@ pacman -S --needed xfce4-whiskermenu-plugin \
 	blueman \
 	tmux \
 	btop \
-	vim
+	vim --noconfirm
 
 #########################
 ### GIT CONFIGURATION ###
@@ -63,7 +63,7 @@ echo ""
 read -p "You want to install FreePascal Compiler? [y/n] " optionFPC
     case $optionFPC in
 	[yY]) 
-	pacman -S fpc
+	pacman -S fpc --noconfirm
 	;;
 	
 	[nN])
@@ -81,7 +81,7 @@ echo ""
 read -p "You want to install KVM/Qemu? [y/n] " optionQEMU
     case $optionQEMU in
 	[yY]) 
-	pacman -S qemu-full	
+	pacman -S qemu-full --noconfirm
 	;;
 	
 	[nN])
@@ -99,7 +99,7 @@ echo ""
 read -p "You want to install Discord? [y/n] " optionDISCORD
     case $optionDISCORD in
 	[yY])
-	pacman -S discord		
+	pacman -S discord --noconfirm	
 	;;
 	
 	[nN])
@@ -118,7 +118,7 @@ echo ""
 read -p "You want to install Spotify? [y/n] " optionSPOTIFY
     case $optionSPOTIFY in
 	[yY])
-	pacman -S spotify-launcher
+	pacman -S spotify-launcher --noconfirm
 	;;
 	
 	[nN])
@@ -137,7 +137,7 @@ echo ""
 read -p "You want to install Obsidian? [y/n] " optionOBSIDIAN
     case $optionOBSIDIAN in
 	[yY])
-	pacman -S obsidian
+	pacman -S obsidian --noconfirm
 	;;
 
 	[nN])
