@@ -11,8 +11,7 @@ cat << "EOF"
 *----------------------------------------------------------*
 | Welcome to Centrix !!                                    |                  
 | This is not an operating system, it is a customization   |
-| for Debian GNU/Linux and Devuan GNU/Linux with           |
-| Xfce desktop enviroment.                                 |
+| for GNU/Linux with Xfce desktop enviroment.              |
 |                                                          |
 | Developed by JIRT2007.                                   |
 | https://github.com/JIRT2007                              |
@@ -20,7 +19,6 @@ cat << "EOF"
 | [y] INSTALL Centrix.                                     |
 | [n] EXIT.                                                |
 *----------------------------------------------------------*
-
 EOF
 
 read -p "Enter your order: " optionMAIN
