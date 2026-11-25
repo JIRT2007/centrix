@@ -20,6 +20,7 @@ cat << "EOF"
 | [y] INSTALL Centrix.                                     |
 | [n] EXIT.                                                |
 *----------------------------------------------------------*
+
 EOF
 
 read -p "Enter your order: " optionMAIN
@@ -29,7 +30,25 @@ case $optionMAIN in
 	    mkdir -p $HOME/.config/alacritty
 	    mkdir -p $HOME/.config/fastfetch
 
-	    "$HOME/centrix/SCRIPTS/software.sh"
+	    # SELECCIÓN DE DISTRIBUCIÓN DE GNU/LINUX:
+	    read -p "[1: Debian/Devuan] [2: ArchLinux] " optionDISTRO
+	    case $optionDISTRO in
+
+	    	1) # DEBIAN/DEVUAN:
+	    	    "$HOME/centrix/SCRIPTS/software_debian.sh"
+	    	;;
+
+    	    	2) # ARCHLINUX:
+	    	    "$HOME/centrix/SCRIPTS/software_arch.sh"
+	    	;;
+	    
+    	    	*)
+	    	echo "Order not found."
+	    	sleep 1
+	    	;;
+
+	    esac
+
 	    "$HOME/centrix/SCRIPTS/keybindings.sh"
 	    "$HOME/centrix/SCRIPTS/desktop.sh"
 
