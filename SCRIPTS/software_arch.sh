@@ -7,11 +7,9 @@ fi
 pacman -Syu
 
 # SOFTWARE A BORRAR:
-pacman -R xfce4-notes \
-	xarchiver \
+pacman -R xarchiver \
 	mousepad \
 	xfburn \
-	xsane \
 	nano \
 	htop
 

@@ -1,7 +1,8 @@
 # CENTRIX
 **Centrix** es una colección de scripts de **Bash** desarrollados para personalizar y configurar el entorno de escritorio **Xfce** en sistemas **Debian GNU/Linux**. El proyecto permite automatizar la instalación, limpieza y configuración de programas conforme a las preferencias y criterios definidos por su desarrollador, facilitando así la preparación de un entorno de escritorio personalizado.
 El instalador ofrece flexibilidad permitiendo instalar programas varios seleccionados por el desarrollador.
-**Centrix** ofrece compatibilidad para sistemas operativos **Debian GNU/Linux** y de misma forma a sistemas **Devuan**.
+
+**Centrix** ofrece compatibilidad para sistemas operativos **Debian/Devuan GNU/Linux** y de misma forma a sistemas **ArchLinux**.
 
 ![Desktop Centrix](DESIGN/desktop.png)
 
@@ -11,7 +12,7 @@ La creación del proyecto **Centrix** surge en base a proyecto de la misma indol
 **Centrix** ofrece de misma forma una visión del creador de como deberian ser los sistemas GNU/Linux (Al menos a nivel de personalización).
 
 ### REQUISITOS
-- Un sistema Debian/Devuan GNU/Linux instalado con el entorno de escritorio **Xfce** predeterminado.
+- Un sistema GNU/Linux de los mencionados instalado con el entorno de escritorio **Xfce** predeterminado.
 - El programa Git instalado, para poder clonar el repositorio desde la plataforma **GitHub**.
 - Conexión a Internet para descargar paquetes.
 
