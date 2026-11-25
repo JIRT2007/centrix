@@ -7,7 +7,7 @@ El instalador ofrece flexibilidad permitiendo instalar programas varios seleccio
 | Debian GNU/Linux     | COMPATIBLE        |
 | Devuan               | COMPATIBLE        |
 | ArchLinux            | COMPATIBLE        |
-| ArtixLinux           | EN DESARROLLO     |
+| Void Linux           | EN DESARROLLO     |
 | Slackware Linux      | NO INICIADO       |
 | Fedora Linux         | NO INICIADO       |
 | Xubuntu              | NO INICIADO       |
