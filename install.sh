@@ -25,6 +25,20 @@ read -p "Enter your order: " optionMAIN
 case $optionMAIN in
 
 	[yY])
+	    ##########################
+	    ### DETECTAR SLACKWARE ###
+	    ##########################
+	    DISTRO=$(. /etc/os-release && echo "$ID")
+	    case $DISTRO in
+	
+		slackware)
+		"$HOME/centrix/SCRIPTS/SLACKWARE/software.sh"
+		"$HOME/centrix/SCRIPTS/SLACKWARE/keybindings.sh"
+		"$HOME/centrix/SCRIPTS/SLACKWARE/desktop.sh"	
+		;;
+	    esac
+
+
 	    mkdir -p $HOME/.config/alacritty
 	    mkdir -p $HOME/.config/fastfetch
 

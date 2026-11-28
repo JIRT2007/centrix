@@ -278,5 +278,4 @@ case $DISTRO in
 	    esac
 
 	;;
-
 esac
