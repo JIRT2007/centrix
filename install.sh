@@ -25,9 +25,7 @@ read -p "Enter your order: " optionMAIN
 case $optionMAIN in
 
 	[yY])
-	    ##########################
-	    ### DETECTAR SLACKWARE ###
-	    ##########################
+	   
 	    DISTRO=$(. /etc/os-release && echo "$ID")
 	    case $DISTRO in
 	
@@ -36,15 +34,16 @@ case $optionMAIN in
 		"$HOME/centrix/SCRIPTS/SLACKWARE/keybindings.sh"
 		"$HOME/centrix/SCRIPTS/SLACKWARE/desktop.sh"	
 		;;
+	    
+		debian|devuan|slackware)
+	    	mkdir -p $HOME/.config/alacritty
+	    	mkdir -p $HOME/.config/fastfetch
+
+	    	"$HOME/centrix/SCRIPTS/software.sh"
+	    	"$HOME/centrix/SCRIPTS/keybindings.sh"
+	    	"$HOME/centrix/SCRIPTS/desktop.sh"
+	    	;;
 	    esac
-
-
-	    mkdir -p $HOME/.config/alacritty
-	    mkdir -p $HOME/.config/fastfetch
-
-	    "$HOME/centrix/SCRIPTS/software.sh"
-	    "$HOME/centrix/SCRIPTS/keybindings.sh"
-	    "$HOME/centrix/SCRIPTS/desktop.sh"
 
 	    # GIT CONFIGURATION
 		echo ""
