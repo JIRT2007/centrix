@@ -29,6 +29,3 @@ fi
 	alias ls='ls -l --group-directories-first --color=auto'
 	alias fpc='fpc -gl -Co -Cr -Miso' #Compilacion para Free Pascal.
 	alias th='bash -c "$HOME/.kabuki/THEMES/themes.sh"'
-
-# PATH PIPX
-export PATH="$PATH:$HOME/.local/bin"
